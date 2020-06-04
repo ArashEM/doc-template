@@ -20,7 +20,8 @@ sudo pip install sphinx_rtd_theme
 
 ``` bash
     cd docs/
-    make htmls
+    make html
 ```
+You can find html files in `docs/build/html`
 
 
