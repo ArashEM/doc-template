@@ -33,7 +33,7 @@ pipeline {
                     //sh "mv build/docs/html/ ${directoryName}"
 
                     // Archive
-                    //archiveArtifacts artifacts: "${directoryName}/**/*", fingerprint: true
+                    archiveArtifacts artifacts: "${directoryName}/**/*", fingerprint: true
                 }
             }
         }
